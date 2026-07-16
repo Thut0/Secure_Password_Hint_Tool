@@ -8,3 +8,6 @@ password = password.strip()
 
 first_letter = password[0]
 last_letter = password[-1]
+
+password_hint = f"Your password hint: It starts with {first_letter.upper()} and ends with {last_letter.upper()}."
+print(password_hint)
